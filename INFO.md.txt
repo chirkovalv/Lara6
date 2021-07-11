@@ -1,0 +1,3 @@
+https://github.com/chirkovalv/Lara6.git
+клонирование репозитория с git
+
