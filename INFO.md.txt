@@ -1,3 +1,31 @@
 https://github.com/chirkovalv/Lara6.git
 клонирование репозитория с git
 
+cd Lara6 
+открытие склонированного репозитория
+
+git add .
+фиксирование добавленных файлов INFO.md, file-feature-1.txt
+git commit
+
+git add .
+фиксирование добавления файла file-feature-2.txt и изменений в file-feature-1.txt
+git commit
+
+rm file-feature-1.txt 
+удаление file-feature-1.txt 
+
+ git rm file-feature-1.txt
+rm 'file-feature-1.txt'
+
+git add .
+фиксирование удаления file-feature-1.txt и создания file-feature-3.txt
+git commit
+
+git mv file-feature-3.txt file-main-feature.txt
+переименовывание файла
+
+git commit
+
+
+
