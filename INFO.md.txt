@@ -1,31 +1,15 @@
-https://github.com/chirkovalv/Lara6.git
-клонирование репозитория с git
+создали боковую ветку branch1
 
-cd Lara6 
-открытие склонированного репозитория
+посмотрели, сколько веток теперь в нашем локальном репозитории
 
-git add .
-фиксирование добавленных файлов INFO.md, file-feature-1.txt
-git commit
+переключились с главной на боковую ветку
 
-git add .
-фиксирование добавления файла file-feature-2.txt и изменений в file-feature-1.txt
-git commit
+создали в ней file1.txt, добавили его, закоммитили изменения
 
-rm file-feature-1.txt 
-удаление file-feature-1.txt 
+создали file2.txt, удалили file1.txt, закоммитили изменения
 
- git rm file-feature-1.txt
-rm 'file-feature-1.txt'
+переключились на главную ветку
 
-git add .
-фиксирование удаления file-feature-1.txt и создания file-feature-3.txt
-git commit
+создали в ней файл file_main1.txt, записали, закоммитили
 
-git mv file-feature-3.txt file-main-feature.txt
-переименовывание файла
-
-git commit
-
-
-
+изменили файл file_main1.txt, записали, закоммитили
